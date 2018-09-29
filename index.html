@@ -30,9 +30,9 @@
 <body>
 
     <div class="editr"
-         data-item="flat-ui"
-         data-files-html="switch.html;radio.html"
-         data-files-css="switch.css;radio.css"></div>
+         data-item="hello"
+         data-files-html="hello.html;hi.html"
+         data-files-css="hello.css"></div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
@@ -47,7 +47,6 @@
     $('.editr').each(function() {
         new Editr({
             el: this,
-            path: 'projects',
             view: 'vertical',
             gistProxyURL: '../editr/libs/proxy.gist.php',
             callback: function(editr) {}
